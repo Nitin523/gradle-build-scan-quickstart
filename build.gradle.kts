@@ -8,8 +8,8 @@ repositories {
 
 dependencies {
     testImplementation(platform("org.junit:junit-bom:6.0.0"))
-    testImplementation("org.apache.tomcat.embed:tomcat-embed-core:11.0.13")
-    implementation("org.apache.tomcat.embed:tomcat-embed-core:11.0.13")
+    testImplementation("org.apache.tomcat.embed:tomcat-embed-core:8.5.4")
+    implementation("org.apache.tomcat.embed:tomcat-embed-core:8.5.4")
     testImplementation("org.junit.jupiter:junit-jupiter")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
